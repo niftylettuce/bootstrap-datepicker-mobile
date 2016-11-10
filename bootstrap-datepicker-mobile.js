@@ -68,6 +68,8 @@
 
   $(window).on('resize.bootstrapDatepickerMobile', bootstrapDatepickerMobile);
 
-  bootstrapDatepickerMobile();
+  $(function() {
+    bootstrapDatepickerMobile();
+  });
 
 }(jQuery, Modernizr, window));
